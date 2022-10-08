@@ -11,7 +11,6 @@ zip_ref.extractall('/tmp')
 zip_ref.close()
 
 base_dir = '/tmp'
-
 train_dir = os.path.join(base_dir, 'train')
 validation_dir = os.path.join(base_dir, 'validation')
 
